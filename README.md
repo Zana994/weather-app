@@ -1,3 +1,10 @@
+# Weather App
+
+Weather app that shows current weather data, hourly forecast for 48 hours and daily forecast for 7 days.
+In menu you can find your current city location and if you click on that, app will show weather data for your current city. Also in menu you can change app background color.
+In the right upper corner there is plus icon for search location. You will get search suggestions while you type city name.
+App refreshes every 5 minutes but there is also refresh button so you can do it manually.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
