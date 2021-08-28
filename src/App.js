@@ -27,7 +27,7 @@ const fetchData = async (coordinates) => {
 }
 
 const findCity = async (coordinates) => {
-    const result = await fetch(`http://api.openweathermap.org/geo/1.0/reverse?lat=${coordinates.lat}&lon=${coordinates.lon}&limit=5&appid=${api_weather}`)
+    const result = await fetch(`https://api.openweathermap.org/geo/1.0/reverse?lat=${coordinates.lat}&lon=${coordinates.lon}&limit=5&appid=${api_weather}`)
    const data = await result.json()
 
    return data
