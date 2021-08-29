@@ -76,7 +76,7 @@ useEffect (() => {
    
 }, [currentLoc, currentCity])
 
-setTimeout(setLocation, 300*1000)
+setTimeout(setLocation, 900*1000)
 
 const refreshData = () => { 
    setsearchCity('')
